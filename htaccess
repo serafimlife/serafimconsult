@@ -1,0 +1,323 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page22819071.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://serafimcrm\.ru/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^www\.serafimcrm.ru [NC]
+RewriteRule ^(.*)$ https://serafimcrm\.ru/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/project394872/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^amkeyh/reg/city$ page4948086.html [NC]
+RewriteRule ^amkeyh/reg/city/$ page4948086.html [NC]
+
+RewriteRule ^english$ page22819071.html [NC]
+RewriteRule ^english/$ page22819071.html [NC]
+
+RewriteRule ^am/black$ page3720137.html [NC]
+RewriteRule ^am/black/$ page3720137.html [NC]
+
+RewriteRule ^amkeyh/reg/city/moscow$ page4970466.html [NC]
+RewriteRule ^amkeyh/reg/city/moscow/$ page4970466.html [NC]
+
+RewriteRule ^am/black/service$ page3851254.html [NC]
+RewriteRule ^am/black/service/$ page3851254.html [NC]
+
+RewriteRule ^amkeyh/vladivostok$ page5399872.html [NC]
+RewriteRule ^amkeyh/vladivostok/$ page5399872.html [NC]
+
+RewriteRule ^rawstartnew-15historymotivationvegan$ page2742139.html [NC]
+RewriteRule ^rawstartnew-15historymotivationvegan/$ page2742139.html [NC]
+
+RewriteRule ^foody$ page43339828.html [NC]
+RewriteRule ^foody/$ page43339828.html [NC]
+
+RewriteRule ^amkeyh/volgograd$ page5400046.html [NC]
+RewriteRule ^amkeyh/volgograd/$ page5400046.html [NC]
+
+RewriteRule ^amkeyh/ekaterinburg$ page5400102.html [NC]
+RewriteRule ^amkeyh/ekaterinburg/$ page5400102.html [NC]
+
+RewriteRule ^amkeyh/irkutsk$ page5400283.html [NC]
+RewriteRule ^amkeyh/irkutsk/$ page5400283.html [NC]
+
+RewriteRule ^amkeyh/kazan$ page5400344.html [NC]
+RewriteRule ^amkeyh/kazan/$ page5400344.html [NC]
+
+RewriteRule ^borodin$ page3929934.html [NC]
+RewriteRule ^borodin/$ page3929934.html [NC]
+
+RewriteRule ^alfagravity$ page3949370.html [NC]
+RewriteRule ^alfagravity/$ page3949370.html [NC]
+
+RewriteRule ^amkeyh/krasnodar$ page5400495.html [NC]
+RewriteRule ^amkeyh/krasnodar/$ page5400495.html [NC]
+
+RewriteRule ^amkeyh/novosibirsk$ page5400533.html [NC]
+RewriteRule ^amkeyh/novosibirsk/$ page5400533.html [NC]
+
+RewriteRule ^amkeyh/omsk$ page5400783.html [NC]
+RewriteRule ^amkeyh/omsk/$ page5400783.html [NC]
+
+RewriteRule ^amkeyh/perm$ page5400845.html [NC]
+RewriteRule ^amkeyh/perm/$ page5400845.html [NC]
+
+RewriteRule ^appsnew$ page4482113.html [NC]
+RewriteRule ^appsnew/$ page4482113.html [NC]
+
+RewriteRule ^amkeyh/rostovondon$ page5401007.html [NC]
+RewriteRule ^amkeyh/rostovondon/$ page5401007.html [NC]
+
+RewriteRule ^amkeyh/tomsk$ page5401212.html [NC]
+RewriteRule ^amkeyh/tomsk/$ page5401212.html [NC]
+
+RewriteRule ^amkeyh/tyumen$ page5401291.html [NC]
+RewriteRule ^amkeyh/tyumen/$ page5401291.html [NC]
+
+RewriteRule ^amkeyh/khabarovsk$ page5401357.html [NC]
+RewriteRule ^amkeyh/khabarovsk/$ page5401357.html [NC]
+
+RewriteRule ^amkeyh/chelyabinsk$ page5401391.html [NC]
+RewriteRule ^amkeyh/chelyabinsk/$ page5401391.html [NC]
+
+RewriteRule ^apps$ page3149746.html [NC]
+RewriteRule ^apps/$ page3149746.html [NC]
+
+RewriteRule ^amkeyh/support$ page5402201.html [NC]
+RewriteRule ^amkeyh/support/$ page5402201.html [NC]
+
+RewriteRule ^amkeyh/about$ page5403809.html [NC]
+RewriteRule ^amkeyh/about/$ page5403809.html [NC]
+
+RewriteRule ^amkeyh/policy$ page5404068.html [NC]
+RewriteRule ^amkeyh/policy/$ page5404068.html [NC]
+
+RewriteRule ^meet/moscow$ page4872707.html [NC]
+RewriteRule ^meet/moscow/$ page4872707.html [NC]
+
+RewriteRule ^app$ page5419253.html [NC]
+RewriteRule ^app/$ page5419253.html [NC]
+
+RewriteRule ^loveira$ page10585077.html [NC]
+RewriteRule ^loveira/$ page10585077.html [NC]
+
+RewriteRule ^presentation/yogaclub$ page4069445.html [NC]
+RewriteRule ^presentation/yogaclub/$ page4069445.html [NC]
+
+RewriteRule ^alfagravity-44165$ page3919191.html [NC]
+RewriteRule ^alfagravity-44165/$ page3919191.html [NC]
+
+RewriteRule ^am/black/menu$ page3723299.html [NC]
+RewriteRule ^am/black/menu/$ page3723299.html [NC]
+
+RewriteRule ^am/black/menu/1$ page3724628.html [NC]
+RewriteRule ^am/black/menu/1/$ page3724628.html [NC]
+
+RewriteRule ^am/white/menu$ page3852639.html [NC]
+RewriteRule ^am/white/menu/$ page3852639.html [NC]
+
+RewriteRule ^am/white/menu/1$ page3854721.html [NC]
+RewriteRule ^am/white/menu/1/$ page3854721.html [NC]
+
+RewriteRule ^successpay$ page2609837.html [NC]
+RewriteRule ^successpay/$ page2609837.html [NC]
+
+RewriteRule ^mk_spb$ page1781707.html [NC]
+RewriteRule ^mk_spb/$ page1781707.html [NC]
+
+RewriteRule ^prolife$ page1098062.html [NC]
+RewriteRule ^prolife/$ page1098062.html [NC]
+
+RewriteRule ^selfmuse$ page3349895.html [NC]
+RewriteRule ^selfmuse/$ page3349895.html [NC]
+
+RewriteRule ^confidential-39195$ page2485745.html [NC]
+RewriteRule ^confidential-39195/$ page2485745.html [NC]
+
+RewriteRule ^support-80300$ page2485810.html [NC]
+RewriteRule ^support-80300/$ page2485810.html [NC]
+
+RewriteRule ^notfound$ page2486770.html [NC]
+RewriteRule ^notfound/$ page2486770.html [NC]
+
+RewriteRule ^magicapp$ page4713260.html [NC]
+RewriteRule ^magicapp/$ page4713260.html [NC]
+
+RewriteRule ^app-25719$ page2707572.html [NC]
+RewriteRule ^app-25719/$ page2707572.html [NC]
+
+RewriteRule ^support-95070$ page4717711.html [NC]
+RewriteRule ^support-95070/$ page4717711.html [NC]
+
+RewriteRule ^policy$ page4718028.html [NC]
+RewriteRule ^policy/$ page4718028.html [NC]
+
+RewriteRule ^partner$ page4718405.html [NC]
+RewriteRule ^partner/$ page4718405.html [NC]
+
+RewriteRule ^policy1$ page2716304.html [NC]
+RewriteRule ^policy1/$ page2716304.html [NC]
+
+RewriteRule ^en$ page4726114.html [NC]
+RewriteRule ^en/$ page4726114.html [NC]
+
+RewriteRule ^education-51950$ page4822924.html [NC]
+RewriteRule ^education-51950/$ page4822924.html [NC]
+
+RewriteRule ^education/publishgoogleplay$ page4823186.html [NC]
+RewriteRule ^education/publishgoogleplay/$ page4823186.html [NC]
+
+RewriteRule ^travel/armenia$ page19728264.html [NC]
+RewriteRule ^travel/armenia/$ page19728264.html [NC]
+
+RewriteRule ^smartpixel$ page20289684.html [NC]
+RewriteRule ^smartpixel/$ page20289684.html [NC]
+
+RewriteRule ^serafim$ page23696833.html [NC]
+RewriteRule ^serafim/$ page23696833.html [NC]
+
+RewriteRule ^serafim_crm/11$ page30060373.html [NC]
+RewriteRule ^serafim_crm/11/$ page30060373.html [NC]
+
+RewriteRule ^telegram$ page30224196.html [NC]
+RewriteRule ^telegram/$ page30224196.html [NC]
+
+RewriteRule ^rawstartnew-main$ page31404906.html [NC]
+RewriteRule ^rawstartnew-main/$ page31404906.html [NC]
+
+RewriteRule ^blog/travel/open-belarus-card$ page31413785.html [NC]
+RewriteRule ^blog/travel/open-belarus-card/$ page31413785.html [NC]
+
+RewriteRule ^blog/travel/say-to-fns$ page31442087.html [NC]
+RewriteRule ^blog/travel/say-to-fns/$ page31442087.html [NC]
+
+RewriteRule ^donate$ page31494397.html [NC]
+RewriteRule ^donate/$ page31494397.html [NC]
+
+RewriteRule ^blog/travel/turkey-route-2week$ page31590158.html [NC]
+RewriteRule ^blog/travel/turkey-route-2week/$ page31590158.html [NC]
+
+RewriteRule ^main$ page31619226.html [NC]
+RewriteRule ^main/$ page31619226.html [NC]
+
+RewriteRule ^blog/marketing/email-services$ page31709024.html [NC]
+RewriteRule ^blog/marketing/email-services/$ page31709024.html [NC]
+
+RewriteRule ^blog/travel$ page31709354.html [NC]
+RewriteRule ^blog/travel/$ page31709354.html [NC]
+
+RewriteRule ^blog/marketing$ page31710619.html [NC]
+RewriteRule ^blog/marketing/$ page31710619.html [NC]
+
+RewriteRule ^blog/marketing/books-for-crm$ page31711187.html [NC]
+RewriteRule ^blog/marketing/books-for-crm/$ page31711187.html [NC]
+
+RewriteRule ^blog/marketing/mini-services-for-crm$ page31917369.html [NC]
+RewriteRule ^blog/marketing/mini-services-for-crm/$ page31917369.html [NC]
+
+RewriteRule ^blog/marketing/messenger-send-errors$ page32050373.html [NC]
+RewriteRule ^blog/marketing/messenger-send-errors/$ page32050373.html [NC]
+
+RewriteRule ^blog/marketing/crm-marketing-skills$ page32050506.html [NC]
+RewriteRule ^blog/marketing/crm-marketing-skills/$ page32050506.html [NC]
+
+RewriteRule ^eng$ page36960404.html [NC]
+RewriteRule ^eng/$ page36960404.html [NC]
+
+RewriteRule ^chooselanguage$ page37066613.html [NC]
+RewriteRule ^chooselanguage/$ page37066613.html [NC]
+
+RewriteRule ^enlish_ru$ page37085825.html [NC]
+RewriteRule ^enlish_ru/$ page37085825.html [NC]
+
+RewriteRule ^cafe$ page37091231.html [NC]
+RewriteRule ^cafe/$ page37091231.html [NC]
+
+RewriteRule ^fest$ page3409516.html [NC]
+RewriteRule ^fest/$ page3409516.html [NC]
+
+RewriteRule ^choiceblender$ page3321992.html [NC]
+RewriteRule ^choiceblender/$ page3321992.html [NC]
+
+RewriteRule ^gorawfood$ page3240371.html [NC]
+RewriteRule ^gorawfood/$ page3240371.html [NC]
+
+RewriteRule ^b12$ page3376573.html [NC]
+RewriteRule ^b12/$ page3376573.html [NC]
+
+RewriteRule ^nailsboard$ page3273731.html [NC]
+RewriteRule ^nailsboard/$ page3273731.html [NC]
+
+RewriteRule ^support$ page3973048.html [NC]
+RewriteRule ^support/$ page3973048.html [NC]
+
+RewriteRule ^confidential$ page3980701.html [NC]
+RewriteRule ^confidential/$ page3980701.html [NC]
+
+RewriteRule ^education/anatomiyasryvov$ page3981460.html [NC]
+RewriteRule ^education/anatomiyasryvov/$ page3981460.html [NC]
+
+RewriteRule ^education/greenbook$ page3983741.html [NC]
+RewriteRule ^education/greenbook/$ page3983741.html [NC]
+
+RewriteRule ^education/tablenutrient$ page3983943.html [NC]
+RewriteRule ^education/tablenutrient/$ page3983943.html [NC]
+
+RewriteRule ^club$ page3984250.html [NC]
+RewriteRule ^club/$ page3984250.html [NC]
+
+RewriteRule ^education$ page3990582.html [NC]
+RewriteRule ^education/$ page3990582.html [NC]
+
+RewriteRule ^education/blog/milk$ page3644137.html [NC]
+RewriteRule ^education/blog/milk/$ page3644137.html [NC]
+
+RewriteRule ^education/blog/fish$ page3688989.html [NC]
+RewriteRule ^education/blog/fish/$ page3688989.html [NC]
+
+RewriteRule ^oferta$ page3999578.html [NC]
+RewriteRule ^oferta/$ page3999578.html [NC]
+
+RewriteRule ^error404$ page4000409.html [NC]
+RewriteRule ^error404/$ page4000409.html [NC]
+
+RewriteRule ^education/vip/asbookanatomiya$ page2817171.html [NC]
+RewriteRule ^education/vip/asbookanatomiya/$ page2817171.html [NC]
+
+RewriteRule ^education/blog/oil$ page4004309.html [NC]
+RewriteRule ^education/blog/oil/$ page4004309.html [NC]
+
+RewriteRule ^failpay$ page4114741.html [NC]
+RewriteRule ^failpay/$ page4114741.html [NC]
+
+RewriteRule ^push$ page3687656.html [NC]
+RewriteRule ^push/$ page3687656.html [NC]
+
+RewriteRule ^domsolnca$ page38473828.html [NC]
+RewriteRule ^domsolnca/$ page38473828.html [NC]
+
+RewriteRule ^police$ page22884957.html [NC]
+RewriteRule ^police/$ page22884957.html [NC]
+
+RewriteRule ^mecommunication$ page43165005.html [NC]
+RewriteRule ^mecommunication/$ page43165005.html [NC]
+
+RewriteRule ^rawstartnew-anatomiyasryvov-book$ page103760836.html [NC]
+RewriteRule ^rawstartnew-anatomiyasryvov-book/$ page103760836.html [NC]
+
+RewriteRule ^rawstartnew-greenbook$ page103760946.html [NC]
+RewriteRule ^rawstartnew-greenbook/$ page103760946.html [NC]
+
+RewriteRule ^rawstartnew-nutrientstable$ page103761216.html [NC]
+RewriteRule ^rawstartnew-nutrientstable/$ page103761216.html [NC]
+
+RewriteRule ^members/ ma_start.html [NC,L]
+
+
